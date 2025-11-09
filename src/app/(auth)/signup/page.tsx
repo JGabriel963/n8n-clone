@@ -4,9 +4,5 @@ import React from "react";
 
 export default async function Page() {
   await requireUnauth();
-  return (
-    <div>
-      <RegisterForm />
-    </div>
-  );
+  return <RegisterForm />;
 }
